@@ -1,48 +1,312 @@
-<mxfile host="app.diagrams.net" modified="2024-04-23T23:14:51.877Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="y_Jdl4W2OkGLwSo1eRbK" version="24.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T05:35:45.942Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="WNWSi4OkLfl9Jd5vmtSc" version="21.2.2" type="github">
   <diagram name="Page-1" id="KaCWcRvqG1j9VKeqatRS">
-    <mxGraphModel dx="794" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4268" dy="1772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VcVSeBZPNJiGb5ufC5FY-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="VcVSeBZPNJiGb5ufC5FY-1" value="Food Diary" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VcVSeBZPNJiGb5ufC5FY-2" value="Guest" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="VcVSeBZPNJiGb5ufC5FY-2" value="Guest" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="280" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VcVSeBZPNJiGb5ufC5FY-3" value="User" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="VcVSeBZPNJiGb5ufC5FY-3" value="User" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="280" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VcVSeBZPNJiGb5ufC5FY-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="VcVSeBZPNJiGb5ufC5FY-2" target="VcVSeBZPNJiGb5ufC5FY-1">
+        <mxCell id="VcVSeBZPNJiGb5ufC5FY-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="VcVSeBZPNJiGb5ufC5FY-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="390" as="sourcePoint" />
-            <mxPoint x="430" y="340" as="targetPoint" />
+            <mxPoint x="560" y="240" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="120" y="240" />
+              <mxPoint x="160" y="240" />
+              <mxPoint x="400" y="240" />
+              <mxPoint x="560" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VcVSeBZPNJiGb5ufC5FY-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="VcVSeBZPNJiGb5ufC5FY-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="240" as="sourcePoint" />
+            <mxPoint x="450" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="200" />
+              <mxPoint x="560" y="240" />
               <mxPoint x="400" y="240" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VcVSeBZPNJiGb5ufC5FY-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="VcVSeBZPNJiGb5ufC5FY-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="240" as="sourcePoint" />
-            <mxPoint x="430" y="340" as="targetPoint" />
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="VcVSeBZPNJiGb5ufC5FY-7" target="VcVSeBZPNJiGb5ufC5FY-1">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="300" y="240" />
+              <mxPoint x="770" y="240" />
+              <mxPoint x="560" y="240" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VcVSeBZPNJiGb5ufC5FY-7" value="Admin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="VcVSeBZPNJiGb5ufC5FY-7" value="Admin" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="280" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VcVSeBZPNJiGb5ufC5FY-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="VcVSeBZPNJiGb5ufC5FY-7">
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-1" value="Register User / Business Account" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="333" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-3" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="240" as="sourcePoint" />
-            <mxPoint x="310" y="290" as="targetPoint" />
+            <mxPoint x="430" y="463" as="sourcePoint" />
+            <mxPoint x="160" y="353" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-13" target="VcVSeBZPNJiGb5ufC5FY-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="580" as="sourcePoint" />
+            <mxPoint x="490" y="430" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="500" y="240" />
+              <mxPoint x="160" y="560" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-9" value="Browse app features and introductory content" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="390" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-10" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="520" as="sourcePoint" />
+            <mxPoint x="160" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-11" value="FAQ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-12" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="610" as="sourcePoint" />
+            <mxPoint x="160" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-13" value="View&amp;nbsp; Advertisements" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="540" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-17" value="Log In / Log Out" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="333" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-18" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-17" target="VcVSeBZPNJiGb5ufC5FY-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="480" as="sourcePoint" />
+            <mxPoint x="400" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="353" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-19" value="Manage Profile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="390" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-20" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="533" as="sourcePoint" />
+            <mxPoint x="400" y="353" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-23" target="VcVSeBZPNJiGb5ufC5FY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-23" value="Personalized Recommendation&lt;br&gt;For Calorie Intake" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1030" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-27" target="VcVSeBZPNJiGb5ufC5FY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-27" value="Record Calorie" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="520" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="lyGHcvRqLKyJ1lj6DzwX-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="540" as="sourcePoint" />
+            <mxPoint x="430" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="600" />
+              <mxPoint x="400" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-30" value="Record Blood Glucose" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="640" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-32" value="Food Scanning" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="520" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-33" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="650" as="sourcePoint" />
+            <mxPoint x="540" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-43" value="Manual Record" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="580" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-46" value="Scan glucose meter reading" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="640" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-47" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="770" as="sourcePoint" />
+            <mxPoint x="540" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-49" value="Manual Record" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="700" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-50" value="Link glucose meter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="760" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-52" target="VcVSeBZPNJiGb5ufC5FY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-52" value="Record Activity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="830" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-54" target="lyGHcvRqLKyJ1lj6DzwX-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-54" value="Manual Record" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="830" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-56" value="Link Apple Health" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="900" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-61" value="Reset Password" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="333" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-62" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="463" as="sourcePoint" />
+            <mxPoint x="540" y="353" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-66" value="&lt;div&gt;Project Description:&lt;/div&gt;&lt;div&gt;This project is to develop a mobile application (Android, iOS or both) to collect record daily diet&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;and every blood sugar reading. The application should include the following functions.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Record food consumption and compute calories intake:&lt;/div&gt;&lt;div&gt;The application can take user inputs on the type and quantity of food and calculate how many&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;calories intake of every meal and every day.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. Support barcode or physical object scanning:&lt;/div&gt;&lt;div&gt;The application can identify the food and estimate the unit calorie by scanning either the food itself&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;or the barcode on the packaging bag. Thereafter, the user only needs to manually enter the consumed&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;quantity to learn the energy s/he has eaten.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. Track blood glucose readings:&lt;/div&gt;&lt;div&gt;The application can take user inputs on blood sugar levels and measurement time. The application&lt;/div&gt;&lt;div&gt;can also read sugar level and time from the glucose test meter via wireless way, say, Wi-Fi,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Bluetooth, etc., or by taking a photo of the meter screen.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. Graph energy intake and glucose levels:&lt;/div&gt;&lt;div&gt;The application can derive the statistics and analysis for a period of user interest, showing the&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;correlation between calorie intake and blood sugar levels.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5. Predict blood glucose levels:&lt;/div&gt;&lt;div&gt;After learning each pair of calorie intake and glucose readings, the application can compute or adjust&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;the estimated user’s basal metabolism. Thereafter, the user enters all food in a meal, the application&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;can estimate the glucose level at the desired time so that the user may adjust the energy intake in&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Advanced features may include the following.&lt;/div&gt;&lt;div&gt;1. Consider the influence of injected insulin on glucose level prediction in addition to calorie intake&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;and basal metabolism.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;2. Share data with healthcare providers.&lt;/div&gt;&lt;div&gt;3. Set reminders for blood sugar testing.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="160" width="470" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-70" target="VcVSeBZPNJiGb5ufC5FY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-70" value="View User Profile" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="810" y="390" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-72" target="VcVSeBZPNJiGb5ufC5FY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-72" value="Manage FAQ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="520" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-74" target="VcVSeBZPNJiGb5ufC5FY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-74" value="Approve Business Accounts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="450" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-77" target="VcVSeBZPNJiGb5ufC5FY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-77" value="Log In / Log Out" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="333" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-78" value="Reset Password" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="333" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-79" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1190" y="463" as="sourcePoint" />
+            <mxPoint x="910" y="353" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-83" target="VcVSeBZPNJiGb5ufC5FY-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="240" />
+              <mxPoint x="560" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-83" value="Business Owner" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-92" target="VcVSeBZPNJiGb5ufC5FY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-92" value="Set Reminder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="960" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-94" target="VcVSeBZPNJiGb5ufC5FY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-94" value="Share data with healthcare providers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1100" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-97" target="VcVSeBZPNJiGb5ufC5FY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-97" value="Manage Advertisements" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="580" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-99" target="lyGHcvRqLKyJ1lj6DzwX-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-99" value="Log In / Log Out" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="343" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-100" value="Reset Password" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="343" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-101" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-100">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1540" y="473" as="sourcePoint" />
+            <mxPoint x="1260" y="363" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-97" target="lyGHcvRqLKyJ1lj6DzwX-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-114" target="lyGHcvRqLKyJ1lj6DzwX-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="378.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-114" value="Manage Profile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="401.5" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-122" target="VcVSeBZPNJiGb5ufC5FY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-122" value="View Health Insight" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="455" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyGHcvRqLKyJ1lj6DzwX-125" target="lyGHcvRqLKyJ1lj6DzwX-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyGHcvRqLKyJ1lj6DzwX-125" value="Create Advertisement" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="460" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
